@@ -24,29 +24,31 @@
 <!--Header and Navbar-->
 
     <header>
-        
-        <a href="index.html">
-            <h2 ID="logo">KIWI KAMPERS <i class="fa-solid fa-kiwi-bird"></i> </h2>
-        </a>
-        <nav>
-            <ul id="menu">
-                <li>
-                      <a href="contact.html">Contact</a>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <a class="navbar-brand" href="index.html">KIWI KAMPERS <i class="fa-solid fa-kiwi-bird"></i></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
                 </li>
-                <li>
-                      <a href="gallery.html">Gallery</a>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">About</a>
                 </li>
-                <li>
-                      <a href="hire.html">Camper Hire</a>
+                <li class="nav-item">
+                  <a class="nav-link" href="hire.html">Camper Hire</a>
                 </li>
-                <li>
-                      <a href="about.html">About</a>
-                </li>
-                <li>
-                      <a class="active" href="index.html">Home</a>
-                </li>
-            </ul>
-        </nav>
+                <li class="nav-item">
+                    <a class="nav-link" href="gallery.html">Gallery</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                  </li>
+              </ul>
+            </div>
+          </nav>
     </header>
 
 <!--Hero Image-->
@@ -55,20 +57,41 @@
          <div id="hero-image"></div>
          
          <div id="welcome-text">
-            <h2>ADVENTURE AWAITS</h2>
+            <h1>ADVENTURE AWAITS</h1>
          </div>
-
-         
     </section>
 
+    <section id="info">
+        <div class="row">
+            <div class="col-md-4">
+              <h2>New Zealand</h2>
+              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+              <p><a class="btn btn-secondary" href="about.html" role="button">More</a></p>
+            </div>
+            <div class="col-md-4">
+              <h2>Camper Hire</h2>
+              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+              <p><a class="btn btn-secondary" href="hire.html" role="button">View Options</a></p>
+            </div>
+            <div class="col-md-4">
+              <h2>Gallery</h2>
+              <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+              <p><a class="btn btn-secondary" href="gallery.html" role="button">View</a></p>
+            </div>
+          </div>
 
-
-    <section>
-         3 segments with link buttons
     </section>
 
+    
 </body>
+
+
+
 <footer>
-    social links
+    <ul class="socials">
+        <li><a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+        <li><a href="https://www.twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+        <li><a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+    </ul>
 </footer>
 </html>
