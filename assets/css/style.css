@@ -168,6 +168,9 @@ button, input {
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
 
+
+/* About */
+
 .divider {
     border: none;
     height: 5px;
@@ -189,7 +192,6 @@ button, input {
 
 #page-heading h2{
     text-align: center;
-    text-decoration: underline;
     padding-top: 10px;
 }
 
