@@ -108,6 +108,14 @@
 
 /* Body */
 
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 button, select {
     text-transform: none;
 }
@@ -231,6 +239,115 @@ img {
     overflow: clip;
 }
 
+/* Gallery */
+  
+  
+#demo {
+    height:100%;
+    position:relative;
+    overflow:hidden;
+  }
+  
+  
+  .green{
+    background-color:#6fb936;
+  }
+          .thumb{
+              margin-bottom: 30px;
+          }
+          
+          .page-top{
+              margin-top:85px;
+          }
+  
+     
+  img.zoom {
+      width: 100%;
+      height: 200px;
+      border-radius:5px;
+      object-fit:cover;
+      -webkit-transition: all .3s ease-in-out;
+      -moz-transition: all .3s ease-in-out;
+      -o-transition: all .3s ease-in-out;
+      -ms-transition: all .3s ease-in-out;
+  }
+          
+   
+  .transition {
+      -webkit-transform: scale(1.2); 
+      -moz-transform: scale(1.2);
+      -o-transform: scale(1.2);
+      transform: scale(1.2);
+  }
+      .modal-header {
+     
+       border-bottom: none;
+  }
+      .modal-title {
+          color:#000;
+      }
+      .modal-footer{
+        display:none;  
+      }
+  
+/* Contact */
+
+.containers {
+    background: #FFFFFF;
+    width: 900px;
+    height: 650px;
+    margin: 5% auto;
+    position: relative;
+  }
+
+.containers .map {
+  width: 45%;
+  float: left;
+}
+.containers .contact-form {
+  width: 53%;
+  margin-left: 2%;
+  float: left;
+}
+.containers .contact-form .title {
+  font-size: 2.5em;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  color: #242424;
+  margin: 5% 8%;
+  text-align: center;
+  padding-left: 50px;
+}
+.containers .contact-form .subtitle {
+  font-size: 1.2em;
+  font-weight: 400;
+  margin: 0 4% 5% 8%;
+  text-align: center;
+  padding-left: 50px;
+}
+.containers .contact-form input,
+.containers .contact-form textarea {
+  width: 330px;
+  padding: 3%;
+  margin: 2% 8%;
+  color: #242424;
+  border: 1px solid #B7B7B7;
+}
+.containers .contact-form input::placeholder,
+.containers .contact-form textarea::placeholder {
+  color: #242424;
+}
+.containers .contact-form .btn-send {
+  background: #212224;
+  width: 180px;
+  height: 60px;
+  color: #FFFFFF;
+  font-weight: 700;
+  margin: 2% 8%;
+  border: none;
+}
+
+
 
 /* Footer */
 
@@ -285,57 +402,3 @@ footer {
         max-width: 41.666667%;
     }
 }
-
-
-
-/* Gallery */
-  
-  
-  #demo {
-    height:100%;
-    position:relative;
-    overflow:hidden;
-  }
-  
-  
-  .green{
-    background-color:#6fb936;
-  }
-          .thumb{
-              margin-bottom: 30px;
-          }
-          
-          .page-top{
-              margin-top:85px;
-          }
-  
-     
-  img.zoom {
-      width: 100%;
-      height: 200px;
-      border-radius:5px;
-      object-fit:cover;
-      -webkit-transition: all .3s ease-in-out;
-      -moz-transition: all .3s ease-in-out;
-      -o-transition: all .3s ease-in-out;
-      -ms-transition: all .3s ease-in-out;
-  }
-          
-   
-  .transition {
-      -webkit-transform: scale(1.2); 
-      -moz-transform: scale(1.2);
-      -o-transform: scale(1.2);
-      transform: scale(1.2);
-  }
-      .modal-header {
-     
-       border-bottom: none;
-  }
-      .modal-title {
-          color:#000;
-      }
-      .modal-footer{
-        display:none;  
-      }
-  
