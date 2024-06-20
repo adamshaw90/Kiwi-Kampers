@@ -350,7 +350,15 @@ img {
   margin: 2% 8%;
   border: none;
 }
+ /* 404 */
 
+.contain {
+    text-align: center;
+}
+
+.error-img {
+    width: 43%;
+}
 
 
 /* Footer */
