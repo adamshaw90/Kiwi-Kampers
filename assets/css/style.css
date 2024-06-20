@@ -375,6 +375,20 @@ footer {
 }
 
 
+/* Submit Page */
+
+.submit-page {
+    text-align: center;
+    padding-top: 300px;
+    padding-bottom: 300px;
+    background-color: #212224;
+    color: #fff;
+}
+
+.submit-page h1 {
+    padding-bottom: 30px;
+}
+
 /* media queries */
 
 @media (min-width: 768px) {
