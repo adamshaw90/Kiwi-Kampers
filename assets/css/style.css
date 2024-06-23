@@ -199,6 +199,12 @@ button, input {
     font-size: 1.25rem;
     font-weight: 300;
 }
+
+.featurette-image {
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
 p {
     margin-top: 0;
     margin-bottom: 1rem;
