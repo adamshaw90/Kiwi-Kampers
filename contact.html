@@ -16,6 +16,12 @@
 
     <link href="assets/css/style.css" rel="stylesheet" type="text/css">
 
+<!--Favicon Links-->
+
+<link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
 
     
 
@@ -53,31 +59,43 @@
           </nav>
     </header>
 
-<section>
-
-  <div class="containers">
-    <div class="map">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3187.582127729693!2d174.77086348908412!3d-36.9720357147082!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d0d4f80e68ee207%3A0x5df1595e3aae53f5!2sKiwi%20Campers%20Auckland!5e0!3m2!1sen!2suk!4v1718791695508!5m2!1sen!2suk" width="100%" height="650px" frameborder="0" style="border:0" allowfullscreen></iframe>
+    <section id="contact">
+      <div class="container">
+        <div class="well well-sm">
+          <h2>Get in touch today!</h2>
+          <p>Ask a question or visit our office</p>
+        </div>
+      
+      <div class="row">
+        <div class="col-md-7">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3187.582127729693!2d174.77086348908412!3d-36.9720357147082!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d0d4f80e68ee207%3A0x5df1595e3aae53f5!2sKiwi%20Campers%20Auckland!5e0!3m2!1sen!2suk!4v1718791695508!5m2!1sen!2suk" width="100%" height="500px" frameborder="0" style="border:0" allowfullscreen></iframe>
+          </div>
     
-  
-  </div>
-    <div class="contact-form">
-      <h1 class="title">Contact Details</h1>
-      <h2 class="subtitle">Ask us a question or visit our office.</h2>
-      <form method="get" action="submit.html">
-        <input type="text" name="name" placeholder="Name" required/>
-        <input type="email" name="e-mail" placeholder="E-mail Address" required/>
-        <input type="tel" name="phone" placeholder="Phone Number"/>
-        <textarea name="text" id="" rows="8" placeholder="Question/Query" required></textarea>
-        <button class="btn-send">Submit</button>
-      </form>
-    
-  
-</div>
-  </div>
- 
-
-</section>
+          <div class="col-md-5">
+            <form method="get" action="submit.html">
+              <div class="form-group">
+                <input type="text" class="form-control" name="" value="" placeholder="Name" required>
+              </div>
+              <br>
+              <div class="form-group">
+                <input type="email" class="form-control" name="" value="" placeholder="E-mail" required>
+              </div>
+              <br>
+              <div class="form-group">
+                <input type="tel" class="form-control" name="" value="" placeholder="Phone">
+              </div>
+              <br>
+              <div class="form-group">
+                <textarea class="form-control" name="" rows="3" placeholder="Message" required></textarea>
+              </div>
+              <button class="btn btn-default" type="submit" name="button">
+                  <i class="fa fa-paper-plane-o" aria-hidden="true"></i> Submit
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
  
     <footer>
       <ul class="socials">
