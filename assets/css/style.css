@@ -41,7 +41,10 @@
 
 /* Navbar */
 
-
+.active {
+    text-decoration: underline;
+    color: #fff;
+}
 
 .fixed-top {
     position: fixed;
@@ -377,9 +380,8 @@ color: #fff;
 }
 
 .iframe {
-    width: 500px;
+    width: 100%;
     height: 500px;
-    padding-right: 50px;
 }
 
 
