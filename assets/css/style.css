@@ -6,7 +6,11 @@
     border: 0; 
 }
 
+
+
 /* Hero image styling */
+
+
 
 #hero-outer {
     height: 37.5rem;
@@ -33,7 +37,11 @@
     text-transform: uppercase
 }
 
+
+
 /* Navbar */
+
+
 
 .fixed-top {
     position: fixed;
@@ -112,7 +120,11 @@
     justify-content: flex-end;
 }
 
+
+
 /* Body */
+
+
 
 .container {
     width: 100%;
@@ -172,7 +184,10 @@ button, input {
 }
 
 
+
 /* About */
+
+
 
 .divider {
     border: none;
@@ -304,7 +319,11 @@ img {
         display:none;  
       }
   
+
+
 /* Contact */
+
+
 
 #contact{
     background-color:#FAF9F9;
@@ -360,12 +379,13 @@ color: #fff;
 .iframe {
     width: 500px;
     height: 500px;
-    border: none;
+    padding-right: 50px;
 }
 
 
-
  /* 404 */
+
+
 
 .contain {
     text-align: center;
@@ -377,7 +397,10 @@ color: #fff;
 }
 
 
+
 /* Footer */
+
+
 
 footer {
     height: 150px;
@@ -399,7 +422,10 @@ footer {
 }
 
 
+
 /* Submit Page */
+
+
 
 .submit-page {
     text-align: center;
@@ -413,7 +439,11 @@ footer {
     padding-bottom: 30px;
 }
 
+
+
 /* media queries */
+
+
 
 @media (min-width: 768px) {
     .col-md-7 {
