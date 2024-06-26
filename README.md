@@ -56,5 +56,77 @@ Kiwi Kampers is an informative website detailing campervan life in New Zealand. 
 
 A navigation menu with clearly defined links.
 - Home - to navigate back to the homepage at anytime - also can be accessed by clicking the Kiwi Kamper logo.
-- 
+- About - to navigate to the 'about' page.
+- Camper Hire - to navigate to the 'hire information' page.
+- Gallery - to navigate to the websites gallery.
+- Contact - to navigate to the map and contact form.
 
+### Navbar Interaction
+
+- Inverted colours when menu items are hovered over.
+- Clicking on logo will always return user to homepage.
+- Menu transforms into a 'hamburger' menu on smaller devices or when window is reduced.
+
+## Favicon
+
+- Kiwi favicon icon in site tab to match webiste theme.
+
+# Site Pages
+
+## Home
+
+- Logo and navbar.
+- Welcoming, full-width 'hero' image and text.
+- 3 information blocks with clickable link buttons that navigate to corresponding pages on the site.
+- Social media links that open in new tabs.
+
+## About
+
+- Logo and navbar
+- 3 sections with information.
+- 3 embedded images that correspond to the information given.
+- Social media links that open in new tabs.
+
+## Camper Hire
+
+- Logo and navbar.
+- 3 sections showing external companies based on budget.
+- 3 embedded images that correspond to the information given.
+- Clickable hyperlinks that take you to external links in a new tab.
+- Social media links that open in new tabs.
+
+## Gallery
+
+- Logo and navbar.
+- 20 image gallery.
+- Clicking an image will open full-size in a new tab.
+- Social media links that open in new tabs.
+
+## Contact
+
+- Logo and navbar.
+- Embedded map with relevant location - interactive.
+- Contact form.
+- Name - required.
+- E-mail - required and also @ required.
+- Comment/question - required.
+- Submit button with 'paper plane' icon.
+- Social media links that open in new tabs.
+
+## Form complete
+
+- Logo and navbar.
+- Themed page with thank you message.
+- Social media links that open in new tabs.
+
+## Custom 404
+
+- Logo and navbar.
+- Custom themed image.
+- Link back to home page.
+- Social media links that open in new tabs.
+
+# Footer
+
+- 3 social media links.
+- Links open in a new tab.
