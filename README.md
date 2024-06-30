@@ -4,15 +4,15 @@
 
 # Table Of Contents
 
-* [Overview](#overview)
-* [User Experience](#user-experience)
-* [Features](#features)
-* [Wireframes](#wireframes)
-* [Deployment](#deployment)
-* [Testing](#testing)
-* [References](#references)
-* [Tools and Technologies](#tools-and-technologies)
-* [Acknowledgements](#credits)
+1. [Overview](#overview)
+1. [User Experience](#user-experience)
+1. [Features](#features)
+1. [Wireframes](#wireframes)
+1. [Deployment](#deployment)
+1. [Testing](#testing)
+1. [References](#references)
+1. [Tools and Technologies](#tools-and-technologies)
+1. [Acknowledgements](#credits)
 
 ---
 
