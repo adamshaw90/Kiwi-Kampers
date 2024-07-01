@@ -89,7 +89,30 @@ The website has been tested on multiple devices to ensure responsiveness remains
 
 Manual testing was carried out on all elements of the site to ensure that everything worked as expected.
 
-|
+Testing also carried out by multiple people in addition to myself.
+
+| ELEMENT | PROCESS | EXPECTED RESULT | OUTCOME |
+| ------- | ------- | --------------- | ------- |
+| Logo and website name | Click | Return to homepage | Successful |
+| Navbar 'Home' button | Click | Return to homepage | Successful |
+| Navbar 'About' button | Click | Navigate to About page | Successful |
+| Navbar 'Hire' button | Click | Navigate to Hire page | Successful |
+| Navbar 'Gallery' button | Click | Navigate to Gallery page | Successful |
+| Navbar 'Contact' button | Click | Navigate to Contact page | Successful |
+| Navbar buttons | Hover | Colours invert | Successful |
+| Navbar buttons | Click | Current page underlined | Successful |
+| 3 homepage link buttons | Hover | Colour fades | Successful |
+| 3 homepage link buttons | Click | Navigate to corresponding page | Successful |
+| Social media footer links | Click | Navigate to corresponding page in new tab | Successful |
+| Hire page hyperlinks | Click | Navigate to corresponding page in new tab | Successful |
+| Gallery images | Click | Open full image in new tab | Successful |
+| Contact page map | Click and scroll | Move map / zoom  | Successful |
+| Contact form | Enter text | No submit allowed unless name, correctly formatted email address and message are inputted | Successful |
+| Contact form submit button | Click | Navigate to submit successful page | Successful |
+| Broken link | Enter | Navigate to 404 page | Successful |
+| Hamburger button | Click | Nav links dropdown | Successful |
+
+
 
 # Browser Compatibility
 
@@ -147,10 +170,57 @@ Lighthouse was used to verify that the web pages are performing well and are are
 
 ![404lighthouse](documentation/404-lighthouse.PNG)
 
-# Bugs
+# Solved Bugs
 
+## Side scroll bar
 
+- There was an issue with a side scroll bar being applied to the homepage (see below image).
+
+![Scrollbug](documentation/scroll%20bug.PNG)
+
+- To fix this issue, I had to change the margin-right value in the CSS .row from -15 to 0.
+
+## Navbar menu items stuck on left
+
+- The Navbar menu items were displaying on the left of the bar and I wanted them on the right (see below image).
+
+![Navbarwrongside](documentation/navbar%20wrong%20side.PNG)
+
+- To fix this issue I had to add another class of .navbar-collapse justify-content : flex-end.
+
+## Hero image too big
+
+- I had issues with the hero image being to big on the home page  (see below image).
+
+![Heroimagesize](documentation/hero%20image%20too%20big.PNG)
+
+- I resized the image using the code shown below.
+
+![Herocode](documentation/herocode.PNG)
+
+## Gallery images not loading
+
+- When navigating to the gallery page, the images were taking a long time to load (see below image).
+
+![Galleryissue](documentation/galleryloading.PNG)
+
+- This loading issue was overcome by resizing the images with paint and then converting the images to the WEBP format.
+
+## Contact page email issue
+
+- The contact page form was allowing the form to be submitted without the correct email format.
+- This was fixed by adding 'required' to the HTML on the email form element.
+
+![Emailfix](documentation/emailfix.PNG)
+
+## Contact form not responsive
+
+- The contact page form was overlapping the map when viewed on a smaller device (see below).
+
+![Contactbug](documentation/contactbug.PNG)
+
+- This was solved by changing the CSS code on the iframe from the fixed width of 500px to 100%.
 
 # Unsolved Bugs
 
-
+- All bugs solved.
