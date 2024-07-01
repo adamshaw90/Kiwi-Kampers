@@ -145,9 +145,8 @@ button, input {
 }
 
 #info {
-    background-image: ;
     text-align: center;
-    display: inline-flexbox;
+    
 }
 
 .row {
@@ -264,9 +263,9 @@ img {
 *, ::after, ::before {
     box-sizing: border-box;
 }
-user agent stylesheet
+
+
 img {
-    overflow-clip-margin: content-box;
     overflow: clip;
 }
 
@@ -331,7 +330,7 @@ img {
 #contact{
     background-color:#FAF9F9;
     font:
--family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+-family -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 .container h4 {
@@ -349,7 +348,7 @@ img {
 }
 
 #contact .form-control{
-    border-radius: 1;
+    border-radius: 0;
     border:2px solid #1e1e1e;
 }
 
@@ -481,4 +480,4 @@ footer {
     #contact iframe {
         margin-bottom: 15px;
     }
-    
+}
